@@ -1,9 +1,9 @@
 `v.0.0.0`
 
 Only files and directories are supported. THIS IMPLEMENTATION MAY NOT BE
-SECURE. Contributions are apreciated.
+SECURE. Contributions are appreciated.
 
-useful links:
+Useful links:
 > https://www.gnu.org/software/tar/manual/html_node/Standard.html
 > https://pubs.opengroup.org/onlinepubs/9699919799/utilities/pax.html#tag_20_92_13
 
@@ -16,7 +16,7 @@ Put file in your project in `<project_dir>/tar` directory and import it with
 
 ```
 /*
-    extract decompresses a tar archive contained in `data` into `dest_dir`.
+    extract a tar archive contained in `data` into `dest_dir`.
 
     Parameters:
         data     – raw bytes of the tar archive

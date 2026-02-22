@@ -2,7 +2,7 @@ package tar
 
 /*
     Only files and directories are supported. THIS IMPLEMENTATION MAY NOT BE
-    SECURE. Contributions are apreciated.
+    SECURE. Contributions are appreciated.
 
     useful links:
     > https://www.gnu.org/software/tar/manual/html_node/Standard.html
@@ -165,7 +165,7 @@ validate_path :: proc(p: string, flags: Feature_Flags) -> Error {
 }
 
 /*
-    extract decompresses a tar archive contained in `data` into `dest_dir`.
+    extract a tar archive contained in `data` into `dest_dir`.
 
     Parameters:
         data     – raw bytes of the tar archive
