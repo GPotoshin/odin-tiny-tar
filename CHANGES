@@ -1,0 +1,8 @@
+v0.0.1 [23/02/26]
+extract_all <- extract
+Header <- Tar_Header
+Error += .EOF
+Reader: struct
+init_reader: proc
+next_entry: proc
+extract_entry: proc
