@@ -1,4 +1,4 @@
-`v.0.0.1`
+`v0.0.1`
 
 Only files and directories are supported. THIS IMPLEMENTATION MAY NOT BE
 SECURE. Contributions are appreciated.
@@ -16,7 +16,7 @@ Put file in your project in `<project_dir>/tar` directory and import it with
 
 Implementation exposes:
 
-```
+```odin
 /*
     extract a tar archive contained in `data` into `dest_dir`.
 
@@ -63,4 +63,4 @@ extract_entry :: proc(r: ^Reader, dest_dir: string, flags: Feature_Flags) -> Err
 ```
 
 I.e. there are 2 interfaces `extract_all` or `init_reader`, `next_entry`, `extract_entry`.
-You can look at the implementation of the former to get an idea how to use latter
+You can look at the implementation of the former to get an idea how to use the latter
